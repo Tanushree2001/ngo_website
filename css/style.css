@@ -247,6 +247,7 @@ input[type=submit] {
     top: 0;
     transform: none;
     top: 350px;
+    right: -40px;
   }
   .contact-form {
     width: 250px;
