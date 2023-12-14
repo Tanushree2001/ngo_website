@@ -239,8 +239,9 @@ nav {
   margin-top: 54px;
 
   .services {
-    gap: 90px;
-    padding: 0 71px;
+    gap: 30px;
+    padding: 0 61px;
+    justify-content: space-between;
 
     .services__container {
       display: flex;

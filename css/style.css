@@ -441,8 +441,9 @@ nav .nav__btn {
   margin-top: 54px;
 }
 .services__part .services {
-  gap: 90px;
-  padding: 0 71px;
+  gap: 30px;
+  padding: 0 61px;
+  justify-content: space-between;
 }
 .services__part .services .services__container {
   display: flex;
