@@ -6,7 +6,7 @@
 
 // .background image of header 
 .background {
-  background-image: url('../images/BGImage.webp');
+  background-image: url('../images/BGImage (1).webp');
   background-size: cover;
   width: 100%;
   height: auto;
@@ -236,29 +236,34 @@ nav {
 
 //service section starts here
 .services__part {
-  padding-top: 164px;
+  // padding-top: 164px;
+  margin-top: 70px;
 
   .services {
-    gap: 30px;
+    // gap: 30px;
     // gap: 0px;
-    padding: 0 61px;
-    justify-content: space-between;
+    // padding: 0 61px;
+    // justify-content: space-between;
+    gap:90px;
 
     .services__container {
+      width: 25%;
+      flex-wrap: wrap;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 30px;
+      gap: 12px;
+      // padding: 30px;
 
       h2 {
         font-size: 20px;
         line-height: 160%;
         font-weight: 500;
-        margin: 12px 0;
+        // margin: 12px 0;
       }
 
       p {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         text-align: center;
       }

@@ -256,7 +256,7 @@ input[type=submit] {
   }
 }
 .background {
-  background-image: url("../images/BGImage.webp");
+  background-image: url("../images/BGImage (1).webp");
   background-size: cover;
   width: 100%;
   height: auto;
@@ -438,27 +438,26 @@ nav .nav__btn {
 }
 
 .services__part {
-  padding-top: 164px;
+  margin-top: 70px;
 }
 .services__part .services {
-  gap: 30px;
-  padding: 0 61px;
-  justify-content: space-between;
+  gap: 90px;
 }
 .services__part .services .services__container {
+  width: 25%;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  gap: 12px;
 }
 .services__part .services .services__container h2 {
   font-size: 20px;
   line-height: 160%;
   font-weight: 500;
-  margin: 12px 0;
 }
 .services__part .services .services__container p {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
 }
