@@ -441,6 +441,7 @@ nav .nav__btn {
   margin-top: 70px;
 }
 .services__part .services {
+  padding: 0 61px;
   gap: 90px;
 }
 .services__part .services .services__container {
@@ -1180,6 +1181,7 @@ footer .foot .footer__two .footer_logos {
   }
   .services__part .services {
     gap: 30px;
+    padding: 0px 10px;
   }
   .about__part .about__part--left {
     display: flex;
@@ -1468,7 +1470,10 @@ footer .foot .footer__two .footer_logos {
   }
   .services__part .services {
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
+  }
+  .services__part .services .services__container {
+    width: 100%;
   }
   .about__part .about__part--container {
     flex-direction: column;

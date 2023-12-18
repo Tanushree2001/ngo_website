@@ -242,7 +242,7 @@ nav {
   .services {
     // gap: 30px;
     // gap: 0px;
-    // padding: 0 61px;
+    padding: 0 61px;
     // justify-content: space-between;
     gap:90px;
 
@@ -1186,6 +1186,7 @@ footer {
   .services__part {
     .services {
       gap: 30px;
+      padding: 0px 10px;
     }
   }
 
@@ -1719,7 +1720,10 @@ footer {
   .services__part {
     .services {
       flex-direction: column;
-      gap: 10px;
+      gap: 16px;
+      .services__container{
+        width: 100%;
+      }
     }
   }
 
